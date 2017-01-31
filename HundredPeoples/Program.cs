@@ -20,7 +20,7 @@ namespace WhoIsLeft
                 counter++;
             }
             int Answer = ManEscaped(People);
-            Console.Write("The one who managed to survive is " + Answer+"th person");
+            Console.Write("The one who managed to survive is " + Answer + "th person");
             Console.ReadLine();
         }
         static int ManEscaped(int[] Number)
@@ -41,13 +41,13 @@ namespace WhoIsLeft
                 return ManEscaped(PeopleWhoDied);
             else
             {
-                int[] NewArray = new int[(TotalPeople + 1) / 2];
+                int[] temp = new int[(TotalPeople + 1) / 2];
                 for (int index = 1; index < countForNewPeople; index++)
                 {
-                    NewArray[index] = PeopleWhoDied[index - 1];
-                    NewArray[0] = PeopleWhoDied[index];
+                    temp[index] = PeopleWhoDied[index - 1];
+                    temp[0] = PeopleWhoDied[index];
                 }
-                return ManEscaped(NewArray);
+                return ManEscaped(temp);
             }
         }
 
