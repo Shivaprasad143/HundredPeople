@@ -32,11 +32,9 @@ namespace WhoIsLeft
             int countForNewPeople = 0;
             for (int index = 0; index < TotalPeople; index += 2)
             {
-
                 PeopleWhoDied[countForNewPeople] = Number[index];
                 countForNewPeople++;
             }
-
             if (TotalPeople % 2 == 0)
                 return ManEscaped(PeopleWhoDied);
             else
@@ -50,7 +48,6 @@ namespace WhoIsLeft
                 return ManEscaped(temp);
             }
         }
-
     }
 }
 

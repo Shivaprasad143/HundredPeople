@@ -4,3 +4,6 @@ C:\Users\Shiva.Marimallaiah\Documents\HelloWorld\HundredPeoples\HundredPeoples\b
 C:\Users\Shiva.Marimallaiah\Documents\HelloWorld\HundredPeoples\HundredPeoples\obj\Debug\HundredPeoples.csprojResolveAssemblyReference.cache
 C:\Users\Shiva.Marimallaiah\Documents\HelloWorld\HundredPeoples\HundredPeoples\obj\Debug\HundredPeoples.exe
 C:\Users\Shiva.Marimallaiah\Documents\HelloWorld\HundredPeoples\HundredPeoples\obj\Debug\HundredPeoples.pdb
+C:\Users\Shiva.Marimallaiah\Documents\HundredPeople\HundredPeoples\bin\Debug\HundredPeoples.exe.config
+C:\Users\Shiva.Marimallaiah\Documents\HundredPeople\HundredPeoples\obj\Debug\HundredPeoples.exe
+C:\Users\Shiva.Marimallaiah\Documents\HundredPeople\HundredPeoples\obj\Debug\HundredPeoples.pdb
